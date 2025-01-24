@@ -1,0 +1,57 @@
+body {
+    background-color:#F0F8FF;
+    color: #000080;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+footer, header {
+background-color: #000080;
+color:#F0F8FF;
+height:min-content;
+text-align: center;
+padding: 1%;
+}
+a:link, a:visited {
+    color:#F0F8FF;
+    text-decoration: none;
+}
+#description, #descriptionHeader, #processHeader {
+    max-width: 70ch;
+    padding-left: 1%;
+}
+
+#photoHeader {
+    text-align: center;
+}
+#navMenu, #openMenu {
+    display: none;
+}
+.photos {
+    padding: 2%;
+}
+.headerImg {
+    width: 100%;
+}
+#headMenu {
+    list-style-type: none;
+    margin: 1%;
+    font-size: 100%;
+    word-spacing: 0.1em;
+}
+#headMenu>li {
+    display: inline-block;
+    padding: 1%;
+}
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 2%;
+}
+.flexContainer1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

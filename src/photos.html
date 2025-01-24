@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotografier</title>
+    <script src ="js/app.js" type="module"></script>
+    <link rel="stylesheet" href="css/stilmall.css">
+</head>
+<body>
+    <header><div class="flexContainer"><h1>Webbutveckling</h1>
+        <button class="menuBtn open" id="openMenu">
+            <span class="menuIcon">
+                <span class="bars"></span>
+                <span class="bars"></span>
+                <span class="bars"></span></span>
+            <span class="menuText">Meny</span>
+        </button>
+        <nav id="navMenu">
+            <button class="menuBtn close" id="closeMenu">
+                <span class="menuIcon">
+                    <span class="bars cross1"></span>
+                    <span class="bars cross2"></span>
+                </span>
+                <span class="menuText">Stäng</span>
+            </button>
+            <ul>
+                <li><a href="index.html">Startsida</a></li>
+                <li><a href="photos.html">Fotografier</a></li>
+                <li><a href="process.html">Arbetsprocess</a></li>
+            </ul>
+        </nav>
+    <nav>
+        <ul id="headMenu">
+            <li class="menuItem"><a href="index.html">Startsida</a></li>
+            <li class="menuItem"><a href="photos.html">Fotografier</a></li>
+            <li class="menuItem"><a href="process.html">Arbetsprocess</a></li>
+        </ul>
+    </nav></div>
+</header>
+    <picture>
+        <source srcset="images/header.jpg?as=webp&width=1024" type="image/webp">
+        <img src="images/header.jpg?width=1024" alt="" class="headerImg">
+    </picture>
+    <h2 id="photoHeader">Fotografier</h2>
+    <div class="flexContainer1">
+        <picture>
+            <source srcset="images/picture1-540w.jpg?as=webp&width=540" type="image/webp">
+            <img src="images/picture1-540w.jpg?width=540" alt="" class="photos">
+        </picture>
+        <picture>
+            <source srcset="images/picture4-540w.jpg" type="image/webp">
+            <img src="images/picture4-540w.jpg?width=540" alt="" class="photos">
+        </picture>
+        <picture>
+            <source srcset="images/picture3-540w.jpg" type="image/webp">
+            <img src="images/picture3-540w.jpg?width=540" alt="" class="photos">
+        </picture>
+        <picture>
+            <source srcset="images/picture2-540w.jpg" type="image/webp">
+            <img src="images/picture2-540w.jpg?width=540" alt="" class="photos">
+        </picture>
+        <picture>
+            <source srcset="images/picture5-540w.jpg" type="image/webp">
+            <img src="images/picture5-540w.jpg?width=540" alt="" class="photos">
+        </picture>
+        <picture>
+            <source srcset="images/picture6-540w.jpg" type="image/webp">
+            <img src="images/picture6-540w.jpg?width=540" alt="" class="photos">
+        </picture></div>
+    <footer><p>Anna Danielsson, Webbutvecklingsprogrammet</p></footer>
+</body>
+</html>
