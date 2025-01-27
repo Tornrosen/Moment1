@@ -17,7 +17,7 @@ a:link, a:visited {
     color:#F0F8FF;
     text-decoration: none;
 }
-#description, #descriptionHeader, #processHeader {
+#description, #descriptionHeader, #processHeader, #processText {
     max-width: 70ch;
     padding-left: 1%;
 }
